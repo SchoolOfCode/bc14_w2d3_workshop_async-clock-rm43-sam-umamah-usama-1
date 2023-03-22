@@ -1,5 +1,8 @@
 const hand = document.querySelector(".hand");
 let seconds = 0;
+//Bonus
+const now = new Date();
+const secondsNew = now.getSeconds;
 
 // hand.style.transform = `rotate(90deg)`; //🔍 HINT: THis is an example of how to rotate the hand!
 
@@ -12,12 +15,20 @@ setInterval(handMove, 1000);
 
 function handMove()
 { 
+    console.log(secondsNew);
     seconds += 6;
     // rotate the hand by 6 degrees every second
     hand.style.transform = `rotate(${seconds}deg)`;
 }
 
 // Every 60 seconds, the hand should complete a full revolution
+
+// Use the JS Date object to get the real seconds.
+    fun
+
+// Add a minute hand.
+
+// Add an hour hand.
 
 
 
